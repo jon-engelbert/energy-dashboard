@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/oemain/!svn/ver/394/OE_dashboard/web/WEB-INF/view
+END
+pcentry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/oemain/!svn/ver/347/OE_dashboard/web/WEB-INF/view/pcentry.jsp
+END
+setupMenu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/oemain/!svn/ver/336/OE_dashboard/web/WEB-INF/view/setupMenu.jsp
+END
+dashboard.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/oemain/!svn/ver/398/OE_dashboard/web/WEB-INF/view/dashboard.jsp
+END
+pcbills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/oemain/!svn/ver/347/OE_dashboard/web/WEB-INF/view/pcbills.jsp
+END
+bill_edit_water.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/oemain/!svn/ver/299/OE_dashboard/web/WEB-INF/view/bill_edit_water.jsp
+END
+setup_zone.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/oemain/!svn/ver/280/OE_dashboard/web/WEB-INF/view/setup_zone.jsp
+END
+edit_energy.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/oemain/!svn/ver/288/OE_dashboard/web/WEB-INF/view/edit_energy.jsp
+END
+setup_user.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/oemain/!svn/ver/398/OE_dashboard/web/WEB-INF/view/setup_user.jsp
+END
+setup_client.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/oemain/!svn/ver/398/OE_dashboard/web/WEB-INF/view/setup_client.jsp
+END
+edit_schedule.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/oemain/!svn/ver/347/OE_dashboard/web/WEB-INF/view/edit_schedule.jsp
+END
+entry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/oemain/!svn/ver/398/OE_dashboard/web/WEB-INF/view/entry.jsp
+END
+edit_building.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/oemain/!svn/ver/357/OE_dashboard/web/WEB-INF/view/edit_building.jsp
+END
+setupMenuBuilding.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/oemain/!svn/ver/333/OE_dashboard/web/WEB-INF/view/setupMenuBuilding.jsp
+END
+lighting.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/oemain/!svn/ver/87/OE_dashboard/web/WEB-INF/view/lighting.jsp
+END
+bills.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/oemain/!svn/ver/369/OE_dashboard/web/WEB-INF/view/bills.jsp
+END
+setup_new_user.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/oemain/!svn/ver/347/OE_dashboard/web/WEB-INF/view/setup_new_user.jsp
+END
+pcbill_edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/oemain/!svn/ver/386/OE_dashboard/web/WEB-INF/view/pcbill_edit.jsp
+END
+setupWS.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/oemain/!svn/ver/347/OE_dashboard/web/WEB-INF/view/setupWS.jsp
+END
+bill_edit_elec.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/oemain/!svn/ver/386/OE_dashboard/web/WEB-INF/view/bill_edit_elec.jsp
+END
+setup_panel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/oemain/!svn/ver/140/OE_dashboard/web/WEB-INF/view/setup_panel.jsp
+END
+edit_zone.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/oemain/!svn/ver/281/OE_dashboard/web/WEB-INF/view/edit_zone.jsp
+END
+edit_meter.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/oemain/!svn/ver/366/OE_dashboard/web/WEB-INF/view/edit_meter.jsp
+END
+hvac.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/oemain/!svn/ver/87/OE_dashboard/web/WEB-INF/view/hvac.jsp
+END
+edit_client.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/oemain/!svn/ver/398/OE_dashboard/web/WEB-INF/view/edit_client.jsp
+END
+edit_user.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/oemain/!svn/ver/398/OE_dashboard/web/WEB-INF/view/edit_user.jsp
+END
+report_tenant.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/oemain/!svn/ver/101/OE_dashboard/web/WEB-INF/view/report_tenant.jsp
+END
+bill_edit_natgas.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/oemain/!svn/ver/347/OE_dashboard/web/WEB-INF/view/bill_edit_natgas.jsp
+END
+setupMenuClient.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/oemain/!svn/ver/357/OE_dashboard/web/WEB-INF/view/setupMenuClient.jsp
+END
+bill_edit_prop.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/oemain/!svn/ver/386/OE_dashboard/web/WEB-INF/view/bill_edit_prop.jsp
+END
+edit_financial.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/oemain/!svn/ver/366/OE_dashboard/web/WEB-INF/view/edit_financial.jsp
+END
+bill_edit_waste.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/oemain/!svn/ver/299/OE_dashboard/web/WEB-INF/view/bill_edit_waste.jsp
+END
+alerts.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/oemain/!svn/ver/88/OE_dashboard/web/WEB-INF/view/alerts.jsp
+END
+setup_meter.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/oemain/!svn/ver/347/OE_dashboard/web/WEB-INF/view/setup_meter.jsp
+END
+edit_ws.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/oemain/!svn/ver/369/OE_dashboard/web/WEB-INF/view/edit_ws.jsp
+END
+report_overview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/oemain/!svn/ver/101/OE_dashboard/web/WEB-INF/view/report_overview.jsp
+END
+scenario.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/oemain/!svn/ver/398/OE_dashboard/web/WEB-INF/view/scenario.jsp
+END
+setup_financial.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/oemain/!svn/ver/324/OE_dashboard/web/WEB-INF/view/setup_financial.jsp
+END
+setup_circuits.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/oemain/!svn/ver/198/OE_dashboard/web/WEB-INF/view/setup_circuits.jsp
+END
+temp.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/oemain/!svn/ver/168/OE_dashboard/web/WEB-INF/view/temp.jsp
+END
+setup_energy.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/oemain/!svn/ver/287/OE_dashboard/web/WEB-INF/view/setup_energy.jsp
+END
+setup_schedule.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/oemain/!svn/ver/347/OE_dashboard/web/WEB-INF/view/setup_schedule.jsp
+END
+setup_building.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/oemain/!svn/ver/357/OE_dashboard/web/WEB-INF/view/setup_building.jsp
+END

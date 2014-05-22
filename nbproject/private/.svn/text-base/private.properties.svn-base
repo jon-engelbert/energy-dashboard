@@ -1,0 +1,12 @@
+deploy.ant.properties.file=/home/worman/.netbeans/7.1/gfv31205457808.properties
+file.reference.commons-fileupload-1.2.2.jar-1=/home/worman/NetBeansProjects/libs
+file.reference.commons-io-2.0.1-javadoc.jar-1=/home/worman/NetBeansProjects/libs
+file.reference.commons-io-2.0.1.jar-1=/home/worman/NetBeansProjects/libs/commons-io-2.0.1.jar
+j2ee.platform.is.jsr109=true
+j2ee.server.domain=/home/worman/.netbeans/7.1/config/GF3_1/domain1
+j2ee.server.home=/usr/local/glassfish-3.1.1/glassfish
+j2ee.server.instance=[/usr/local/glassfish-3.1.1/glassfish:/usr/local/glassfish-3.1.1/glassfish/domains/domain1]deployer:gfv3ee6wc:localhost:4848
+j2ee.server.middleware=/usr/local/glassfish-3.1.1
+javac.debug=true
+javadoc.preview=true
+user.properties.file=/home/worman/.netbeans/7.1/build.properties

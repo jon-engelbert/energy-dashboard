@@ -1,0 +1,75 @@
+you can selectively show/hide elements in a jsp page by using JSTL tags.  the example below shows the submit button for ONLY the user group "admin".  If you want to show the button to any role BUT that "admin" role, then just put a ! in front of the request.isUserInRole.
+
+just make sure you have this at the top of the jsp page (or the appropriate header jsp)
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+            <c:if test="<%= request.isUserInRole("admin")%>"> 
+                <input name="submitbill" type="submit" class="box" value=" Submit Changes "/>
+            </c:if>
+
+if you want to access the user's username from the jsp page, just use request.getRemoteUser();
+
+or you can do all the in the controller and then set the variables in the request:
+    request.setAttribute("userIsAdmin",  request.isUserInRole("admin") );
+
+and in the jsp page, set the flag by using
+
+            <c:if test="${userIsAdmin == "true"}"> 
+
+.thien
+
+
+--------------------------------------------------
+
+
+glassfish has a built-in system using the @notations.  you can read up on it here: http://java.sun.com/developer/technicalArticles/J2EE/security_annotation/ 
+
+but after having pulled my hair out over this for a while and not getting it to work, i was about to implement something like what you are about to do but stumbled upon a key fact: @notations for authorization CANNOT be used in the servlet context (the controller servlet).  stupid, i know.  so what i did was create class called "Authorization" and then put in dummy methods in it that I called when I needed to authorize.  
+
+Here's part of the class:
+
+===============
+@Stateless
+@LocalBean
+public class Authorization {
+
+//  --------------------------------------------
+//  authorize by menu
+//  --------------------------------------------
+    
+    @PermitAll
+    public void AuthorizeHome() {
+        return;
+    }
+    
+    @RolesAllowed({"admin","approval","auditor"})
+    public void AuthorizeAdmin() {
+        return;
+    }
+    
+        @RolesAllowed({"admin"})
+        //@RolesDenied({"approval","auditor"})
+        public void AuthorizeAdminEdit() {
+            return;
+        }
+    
+    @RolesAllowed({"admin","auditor"})
+    public void AuthorizeHistory() {
+        return;
+    }
+=================
+
+So in the controller, there are all those if (userPath == "/page") {} tests.  In each, i would call out to the function that had the security i needed.  each method is really the group that the security applies to: AuthorizeHistory() is for the group of users that are allowed to see the Audit Trails of items, AuthorizeAdmin() authorizes users for admin functions.  You can get pretty fine detail using this method.  I can't say that it's completely kosher way of doing it but it works.
+
+But the trick is that you have to set up the groups and security through glassfish-web.xml and web.xml.  i've attached screen caps of my setup for you to follow.
+
+But if you think authorizing by user name is the way you want to go, you can get the logged-in user with:
+
+String userName = request.getRemoteUser();
+
+you can find out if the logged-in user is part of a role by calling
+
+boolean inrole = request.isUserInRole("<rolename>");
+
+hope that helps.  i might have time this weekend to help you with this but i'm in the middle of implementing a messaging system for the app and have my hands full right now.
+

@@ -1,0 +1,36 @@
+SMAP
+setup_005fuser_jsp.java
+JSP
+*S JSP
+*F
++ 0 header.jspf
+WEB-INF/jspf/header.jspf
++ 1 setup_user.jsp
+WEB-INF/view/setup_user.jsp
++ 2 setupMenu.jsp
+WEB-INF/view/setupMenu.jsp
++ 3 footer.jspf
+WEB-INF/jspf/footer.jspf
+*L
+1,43:67
+5#1,5:109
+5#2,23:113
+9#1,20:135
+28:224,8
+29,3:232
+31:258,11
+32:269
+32:302,5
+32:272,2
+32:320,5
+32,2:276
+33,3:237
+35,9:157
+43:338,8
+43,3:168
+45:364,8
+45,8:173
+53:181,3
+54,18:184
+1#3,6:201
+*E

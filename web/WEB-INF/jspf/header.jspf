@@ -1,0 +1,43 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/slider.css" rel="stylesheet" type="text/css" media="screen" />
+        <title>Cloud View</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+    </head>
+    <body bgcolor="#FFFFFF" text="#000000">
+
+        <!-- ===========forms for entering new values============================== -->
+
+        <div id="wrapper">
+            <div id="header-wrapper">
+                <div id="header">
+
+                    <div id="logo">
+                        <h1>WattIQ  
+<!--                        <span style="margin:40px;"><img src="./images/oe_logo_small.png" /></span>-->
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end #header -->
+
+            <div id="menu">
+                <ul>
+                    <li><a href="dashboard">Dashboard</a></li>
+                    <li><a href="scenario">Scenarios</a></li>
+<!--                    <li><a href="reports">Reports</a></li>-->
+                    <!--<li><a href="lighting">Lighting</a></li>-->
+                    <!--<li><a href="hvac">HVAC</a></li>-->
+<!--                    <li><a href="alerts">Alerts</a></li>-->
+                    <!--<li><a href="setup_entry">Bills</a></li>-->
+                    <li><a href="setup_building">Setup</a></li>
+                    <li><a href="sign_off">Sign-off</a></li>
+                </ul>
+            </div>
+            
+            <!-- end #menu -->
